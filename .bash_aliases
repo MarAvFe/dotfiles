@@ -1,0 +1,11 @@
+alias d='docker'
+alias dc='docker-compose'
+alias dps='docker ps'
+alias dpa='docker ps -a'
+alias di='docker images'
+alias drmi='docker rmi'
+alias drm='docker rm'
+alias dlogs='docker logs'
+alias dexec='docker exec -it'
+alias dstopall='docker stop $(docker ps -a -q)'
+

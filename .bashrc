@@ -29,8 +29,12 @@ if [ -f ~/.bash_secrets ]; then
     . ~/.bash_secrets
 fi
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/dotfiles/.bash_ps1 ]; then
+    . ~/dotfiles/.bash_ps1
+fi
+
+if [ -f ~/dotfiles/.bash_aliases ]; then
+    . ~/dotfiles/.bash_aliases
 fi
 
 # https://sneak.berlin/20191011/stupid-unix-tricks/
